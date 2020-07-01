@@ -1,2 +1,3 @@
 # smart-shop-list
-Exclusion project in Xamarin
+A simple shop list in the Xamarin framework.
+Is an school exclusion project.
