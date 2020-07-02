@@ -13,8 +13,21 @@ namespace Smart_Shop_List
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            DependencyService.Register<ProductsDataStore>();
             MainPage = new MainPage();
+        }
+
+        static DatabaseManager database;
+        public static DatabaseManager Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new DatabaseManager();
+                }
+                return database;
+            }
         }
 
         protected override void OnStart()

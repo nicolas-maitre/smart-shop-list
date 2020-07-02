@@ -13,13 +13,13 @@ namespace Smart_Shop_List.Views
     [DesignTimeVisible(false)]
     public partial class NewItemPage : ContentPage
     {
-        public Item Item { get; set; }
+        public Product Item { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new Item
+            Item = new Product
             {
                 Text = "Item name",
                 Description = "This is an item description."
@@ -30,7 +30,7 @@ namespace Smart_Shop_List.Views
 
         async void Save_Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "AddItem", Item);
+            MessagingCenter.Send(this, "AddProduct", Item);
             await Navigation.PopModalAsync();
         }
 

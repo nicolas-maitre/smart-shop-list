@@ -6,10 +6,10 @@ namespace Smart_Shop_List.Services
 {
     public interface IDataStore<T>
     {
-        Task<bool> AddItemAsync(T item);
-        Task<bool> UpdateItemAsync(T item);
-        Task<bool> DeleteItemAsync(string id);
-        Task<T> GetItemAsync(string id);
-        Task<IEnumerable<T>> GetItemsAsync(bool forceRefresh = false);
+        Task<bool> AddProductAsync(T item);
+        Task<bool> UpdateProductAsync(T item);
+        Task<bool> DeleteProductAsync(string id);
+        Task<T> GetProductAsync(string id);
+        Task<IEnumerable<T>> GetProductsAsync(bool forceRefresh = false);
     }
 }
