@@ -14,7 +14,7 @@ namespace Smart_Shop_List.Services
         {
             products = new List<Product>()
             {
-                new Product { Id = "fake", Text = "loading..."},
+                new Product { Id = "fake", Title = "loading..."},
             };
         }
 
@@ -50,11 +50,10 @@ namespace Smart_Shop_List.Services
 
         public async Task<IEnumerable<Product>> GetProductsAsync(bool forceRefresh = false)
         {
-            //Console.WriteLine(Database.QueryAsync("SELECT * FROM [TodoItem] WHERE [Done] = 0");)
             List<Product> dbProducts = await App.Database.GetProductsAsync();
             products.Clear();
+            products.Sort(); //sort by score
             products.AddRange(dbProducts);
-            products.Add(new Product { Id = "12312412341", Text = "Hello" });
             return await Task.FromResult(products);
         }
     }

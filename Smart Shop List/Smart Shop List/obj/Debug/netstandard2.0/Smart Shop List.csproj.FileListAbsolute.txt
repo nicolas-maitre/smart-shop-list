@@ -6,7 +6,6 @@ D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Smart Shop List.AssemblyInfoInputs.cache
@@ -16,3 +15,4 @@ D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Smart Shop List.pdb
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Smart Shop List.csproj.CoreCompileInputs.cache
 D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\XamlC.stamp
+D:\000Trucs\Projects\school\smart-shop-list\Smart Shop List\Smart Shop List\obj\Debug\netstandard2.0\Views\ProductsPage.xaml.g.cs

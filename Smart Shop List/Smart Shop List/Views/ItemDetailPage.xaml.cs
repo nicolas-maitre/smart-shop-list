@@ -28,8 +28,8 @@ namespace Smart_Shop_List.Views
 
             var item = new Product
             {
-                Text = "Item 1",
-                Description = "This is an item description."
+                Title = "Item 1",
+                //Description = "This is an item description."
             };
 
             viewModel = new ItemDetailViewModel(item);

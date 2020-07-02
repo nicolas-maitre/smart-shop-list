@@ -9,7 +9,7 @@ namespace Smart_Shop_List.ViewModels
         public Product Item { get; set; }
         public ItemDetailViewModel(Product item = null)
         {
-            Title = item?.Text;
+            Title = item?.Title;
             Item = item;
         }
     }

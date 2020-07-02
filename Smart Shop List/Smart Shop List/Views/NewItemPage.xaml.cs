@@ -21,8 +21,8 @@ namespace Smart_Shop_List.Views
 
             Item = new Product
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                Title = "Item name",
+                //Description = "This is an item description."
             };
 
             BindingContext = this;

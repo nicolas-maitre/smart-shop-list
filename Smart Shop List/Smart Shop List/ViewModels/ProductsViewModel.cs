@@ -21,9 +21,9 @@ namespace Smart_Shop_List.ViewModels
             Items = new ObservableCollection<Product>();
             LoadProductsCommand = new Command(async () => await ExecuteLoadProductsCommand());
 
-            MessagingCenter.Subscribe<NewItemPage, Product>(this, "AddProduct", async (obj, item) =>
+            MessagingCenter.Subscribe<NewItemPage, Product>(this, "AddProduct", async (obj, product) =>
             {
-                var newItem = item as Product;
+                var newItem = product as Product;
                 Items.Add(newItem);
                 await DataStore.AddProductAsync(newItem);
             });

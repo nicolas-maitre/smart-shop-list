@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eDs7Kpvd0xh0z6/LB310Dq3msDxO5aNpXZjmmlTKUNVusU2H3t/uie7pSIsVxQP2Y64KydSkjLKYiV6Df7tMVw==",
+  "dgSpecHash": "l+3CaDZJYc8GDyXjuGNjiS2M4JfqVUMrC7vi3Ue3ravS0go/kk7nxtqDA4wrXimpoekiTTMLea0T+60e0go4Vw==",
   "success": true,
   "projectFilePath": "D:\\000Trucs\\Projects\\school\\smart-shop-list\\Smart Shop List\\Smart Shop List.Android\\Smart Shop List.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nicolas\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Nicolas\\.nuget\\packages\\pclstorage\\1.0.2\\pclstorage.1.0.2.nupkg.sha512",
     "C:\\Users\\Nicolas\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Nicolas\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Nicolas\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

@@ -4,6 +4,9 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Smart Shop List.Android.dll" comes first in this list. */
 		"Smart Shop List.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"PCLStorage.Abstractions.dll",
+		"PCLStorage.dll",
 		"Smart Shop List.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
